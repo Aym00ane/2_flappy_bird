@@ -1,0 +1,5 @@
+res://Scenes/Main.tscn
+res://Scenes/Bird.tscn
+res://Scripts/Bird.gd
+res://Scenes/Ground.tscn
+res://Scripts/Ground.gd

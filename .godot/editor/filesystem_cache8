@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1692755024
+::res://::1692758617
 icon.svg::CompressedTexture2D::1966857562705206006::1692755007::1692755013::1::::<><>::
-::res://Assets/::1685882594
+::res://Assets/::1692755025
 background-day.png::CompressedTexture2D::3942734267531118295::1685882594::1692755025::1::::<><>::
 base.png::CompressedTexture2D::5094584510223029896::1685882594::1692755025::1::::<><>::
 gameover.png::CompressedTexture2D::1671720145823035019::1685882594::1692755025::1::::<><>::
@@ -9,5 +9,11 @@ pipe-green.png::CompressedTexture2D::8401577441080676234::1685882594::1692755025
 yellowbird-downflap.png::CompressedTexture2D::4010217747903562561::1685882594::1692755025::1::::<><>::
 yellowbird-midflap.png::CompressedTexture2D::89615364791146658::1685882594::1692755025::1::::<><>::
 yellowbird-upflap.png::CompressedTexture2D::5149734033871980663::1685882594::1692755025::1::::<><>::
-::res://Assets/font/::1685882594
+::res://Assets/font/::1692755025
 FlappyBird.ttf::FontFile::6237163555881918360::1685882594::1692755025::1::::<><>::
+::res://Scenes/::1692761789
+Main.tscn::PackedScene::4853665596023049045::1692761789::0::1::::<><>::uid://dgyeuydleea1g::::res://Scenes/Bird.tscn<>uid://bwf5i0qyei8n0::::res://Assets/background-day.png
+Bird.tscn::PackedScene::7630220028554205690::1692761789::0::1::::<><>::res://Scripts/Bird.gd<>uid://bjn7mqbj3rrm::::res://Assets/yellowbird-midflap.png<>uid://cfmtmqos4atil::::res://Assets/yellowbird-upflap.png
+::res://Scripts/::1692761789
+Bird.gd::GDScript::-1::1692761789::0::1::::<>CharacterBody2D<>::
+Ground.tscn::PackedScene::8018112965189642298::1692763393::0::1::::<><>::uid://cet4cekw32tsa::::res://Assets/base.png
