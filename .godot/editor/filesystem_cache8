@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1692755024
+icon.svg::CompressedTexture2D::1966857562705206006::1692755007::1692755013::1::::<><>::
+::res://Assets/::1685882594
+background-day.png::CompressedTexture2D::3942734267531118295::1685882594::1692755025::1::::<><>::
+base.png::CompressedTexture2D::5094584510223029896::1685882594::1692755025::1::::<><>::
+gameover.png::CompressedTexture2D::1671720145823035019::1685882594::1692755025::1::::<><>::
+pipe-green.png::CompressedTexture2D::8401577441080676234::1685882594::1692755025::1::::<><>::
+yellowbird-downflap.png::CompressedTexture2D::4010217747903562561::1685882594::1692755025::1::::<><>::
+yellowbird-midflap.png::CompressedTexture2D::89615364791146658::1685882594::1692755025::1::::<><>::
+yellowbird-upflap.png::CompressedTexture2D::5149734033871980663::1685882594::1692755025::1::::<><>::
+::res://Assets/font/::1685882594
+FlappyBird.ttf::FontFile::6237163555881918360::1685882594::1692755025::1::::<><>::
