@@ -6,6 +6,7 @@
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_b5n2x"]
 radius = 12.0
+height = 32.0
 
 [sub_resource type="Animation" id="Animation_3j471"]
 resource_name = "Idle"

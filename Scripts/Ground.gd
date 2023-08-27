@@ -1,5 +1,7 @@
 extends Node2D
 
+class_name Ground
+
 signal bird_crashed
 
 @export var speed = -150

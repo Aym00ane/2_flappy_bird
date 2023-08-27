@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1692758617
+::res://::1693160151
 icon.svg::CompressedTexture2D::1966857562705206006::1692755007::1692755013::1::::<><>::
 ::res://Assets/::1692755025
 background-day.png::CompressedTexture2D::3942734267531118295::1685882594::1692755025::1::::<><>::
@@ -11,9 +11,14 @@ yellowbird-midflap.png::CompressedTexture2D::89615364791146658::1685882594::1692
 yellowbird-upflap.png::CompressedTexture2D::5149734033871980663::1685882594::1692755025::1::::<><>::
 ::res://Assets/font/::1692755025
 FlappyBird.ttf::FontFile::6237163555881918360::1685882594::1692755025::1::::<><>::
-::res://Scenes/::1692761789
-Main.tscn::PackedScene::4853665596023049045::1692761789::0::1::::<><>::uid://dgyeuydleea1g::::res://Scenes/Bird.tscn<>uid://bwf5i0qyei8n0::::res://Assets/background-day.png
-Bird.tscn::PackedScene::7630220028554205690::1692761789::0::1::::<><>::res://Scripts/Bird.gd<>uid://bjn7mqbj3rrm::::res://Assets/yellowbird-midflap.png<>uid://cfmtmqos4atil::::res://Assets/yellowbird-upflap.png
-::res://Scripts/::1692761789
-Bird.gd::GDScript::-1::1692761789::0::1::::<>CharacterBody2D<>::
-Ground.tscn::PackedScene::8018112965189642298::1692763393::0::1::::<><>::uid://cet4cekw32tsa::::res://Assets/base.png
+::res://Scenes/::1693023681
+Bird.tscn::PackedScene::7630220028554205690::1693023681::0::1::::<><>::res://Scripts/Bird.gd<>uid://bjn7mqbj3rrm::::res://Assets/yellowbird-midflap.png<>uid://cfmtmqos4atil::::res://Assets/yellowbird-upflap.png
+Ground.tscn::PackedScene::8018112965189642298::1693023681::0::1::::<><>::res://Scripts/Ground.gd<>uid://cet4cekw32tsa::::res://Assets/base.png
+Main.tscn::PackedScene::4853665596023049045::1693023681::0::1::::<><>::uid://dgyeuydleea1g::::res://Scenes/Bird.tscn<>uid://bwf5i0qyei8n0::::res://Assets/background-day.png<>uid://dmibfcljiat5s::::res://Scenes/Ground.tscn<>uid://dsdgvenivfpd::::res://Scenes/PipeSpawner.tscn
+Pipe.tscn::PackedScene::5094213698470204120::1693023681::0::1::::<><>::res://Scripts/Pipe.gd<>uid://drx10uoxjpba5::::res://Assets/pipe-green.png
+PipeSpawner.tscn::PackedScene::247919306000655453::1693023681::0::1::::<><>::res://Scripts/PipeSpawner.gd
+::res://Scripts/::1693023641
+Bird.gd::GDScript::-1::1692765843::0::1::::Bird<>CharacterBody2D<>::
+Ground.gd::GDScript::-1::1693023641::0::1::::Ground<>Node2D<>::
+Pipe.gd::GDScript::-1::1693022982::0::1::::Pipe<>Node2D<>::
+PipeSpawner.gd::GDScript::-1::1693022607::0::1::::PipeSpawner<>Node<>::
