@@ -13,10 +13,11 @@ var pipe_scene = preload("res://Scenes/Pipe.tscn")
 
 
 func _ready():
-	spawn_timer.timeout.connect(spawn_pipe)
 	spawn_timer.start()
+
+
 func start_spawning_pipes():
-	pass
+	spawn_timer.timeout.connect(spawn_pipe)
 
 
 func spawn_pipe():
@@ -40,8 +41,10 @@ func on_bird_entered():
 
 func stop():
 	spawn_timer.stop()
-	for pipe in get_children().filter(func (child): return child in Pipe):
+	for pipe in get_children().filter(func (child): return child is Pipe):
 		(pipe as Pipe).speed = 0
+
+
 func on_point_scored():
 	point_scored.emit()
 
