@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbfffsx4uaaun"]
+[gd_scene load_steps=11 format=3 uid="uid://cbfffsx4uaaun"]
 
 [ext_resource type="PackedScene" uid="uid://dgyeuydleea1g" path="res://Scenes/Bird.tscn" id="1_30mvp"]
 [ext_resource type="Texture2D" uid="uid://bwf5i0qyei8n0" path="res://Assets/background-day.png" id="1_i0cb2"]
@@ -7,6 +7,9 @@
 [ext_resource type="PackedScene" uid="uid://dsdgvenivfpd" path="res://Scenes/PipeSpawner.tscn" id="4_o2n2m"]
 [ext_resource type="PackedScene" uid="uid://ec0scjkkesw" path="res://Scenes/fade.tscn" id="6_oxj62"]
 [ext_resource type="PackedScene" uid="uid://dp5qtqphvkqxy" path="res://Scenes/UI.tscn" id="7_mu1pf"]
+[ext_resource type="AudioStream" uid="uid://dwm17xflghb8x" path="res://Assets/music.mp3" id="8_u0all"]
+[ext_resource type="AudioStream" uid="uid://d1sfkb82s1qy1" path="res://Assets/fall.wav" id="9_3ijni"]
+[ext_resource type="AudioStream" uid="uid://c44dad873sgyn" path="res://Assets/jump.wav" id="10_jvaek"]
 
 [node name="Main" type="Node"]
 
@@ -29,3 +32,12 @@ position = Vector2(2.08165e-12, 2.08165e-12)
 [node name="UI" parent="." instance=ExtResource("7_mu1pf")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_u0all")
+
+[node name="Dead" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("9_3ijni")
+
+[node name="JumpSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("10_jvaek")

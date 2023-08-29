@@ -10,6 +10,7 @@ signal game_started
 @export var rotation_speed = 2
 
 @onready var animation_player = $AnimationPlayer
+@onready var jump_sound = $"../JumpSound"
 
 var max_speed = 400
 var is_started = false
@@ -37,6 +38,7 @@ func _physics_process(delta):
 	rotate_bird()
 
 func jump():
+	jump_sound.play()
 	velocity.y = jump_force
 	rotation = deg_to_rad(-30)
 

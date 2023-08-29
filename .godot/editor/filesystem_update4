@@ -1,12 +1,9 @@
 res://Scenes/Main.tscn
+res://Scripts/Bird.gd
+res://Scripts/GameManager.gd
 res://Scenes/Bird.tscn
 res://Scenes/Ground.tscn
 res://Scenes/Pipe.tscn
 res://Scenes/PipeSpawner.tscn
-res://Scripts/PipeSpawner.gd
-res://Scripts/GameManager.gd
-res://Scripts/Bird.gd
-res://Scripts/Fade.gd
 res://Scenes/fade.tscn
-res://Scripts/UI.gd
 res://Scenes/UI.tscn
